@@ -1,0 +1,47 @@
+    1  chown root:root /home/user1/my_cat
+    2  chmod 4755 /home/user1/my_cat
+    3  su - user1
+    4  exit
+    5  color 2
+    6  color 1
+    7  help color
+    8  color -h
+    9  clear
+   10  ls
+   11  groupadd students
+   12  group -h
+   13  adduser -h
+   14  adduser -u 1234 -g students user1
+   15  adduser -u 1234 -g students user1
+   16  clear
+   17  adduser -u 1234 -g students -m user1
+   18  adduser students 1234 user1
+   19  clear
+   20  useradd -u 1234 -g students -m -s /bin/bash/ user1
+   21  passwd user1
+   22  chage -M 90 user1
+   23  chage -l user1
+   24  find / -perm /4000 -type f 2>/dev/null
+   25  ps -eo ruid,euid,pid,comm | awk '$1 >= 1000 && $2 ==0'
+   26  ps -eo ruid,euid,pid,comm | awk '$1 >= 1000 && $2 ==0'
+   27  clear
+   28  cp /bin/cat /home/user1/my_cat
+   29  chown root:root /home/user/my_cat
+   30  sudo su
+   31  exit
+   32  user1
+   33  exit
+   34  cp /bin/chown /home/user1/my_chown
+   35  chown user1:students /home/user1/my_chown
+   36  setcap cap_chown=+ep /home/user1/my_chown
+   37  touch /home/user1/test_file.txt
+   38  exit
+   39  m,c
+   40  mc
+   41  clear
+   42  su - user1
+   43  exit
+   44  apt-get update && apt-get install -y libcap2-bin
+   45  getcap -h
+   46  exit
+   47  history > /home/user1/history_of_root.out

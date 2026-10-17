@@ -1,0 +1,22 @@
+    1  ls
+    2  echo "Мой номер студенческого билета - M265974, Фёдоров Д.В."
+    3  рудз
+    4  help
+    5  echo "Мой номер студенческого билета - M265974, Фёдоров Д.В."
+    6  clear
+    7  echo "Мой номер студенческого билета - M265974, Фёдоров Д.В."
+    8  history > ~/history.out
+    9  ls history.out
+   10  nano history.out 
+   11  clear
+   12  passwd user1
+   13  cat /etc/shadow
+   14  ./my-cat /etc/shadow
+   15  /my-cat /etc/shadow
+   16  ./my_cat /etc/shadow
+   17  clear
+   18  chown user1 /home/user1/test_file.txt
+   19  ./my_chown user1 /home/user1/test_file.txt
+   20  sudo date -s "10:00:00"
+   21  echo "Мой номер студенческого билета - М265974, ФИО - Фёдоров Д.В."
+   22  history > ~/history.out
